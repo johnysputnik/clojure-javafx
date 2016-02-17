@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <?import javafx.scene.control.TextField?>
+ <?import javafx.scene.layout.*?>
+ 
+ <?import javafx.scene.control.Button?>
+ <?import javafx.scene.control.Label?>
+ <GridPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+           alignment="center" hgap="10" vgap="10" fx:controller="app.view.Main">
+    <children>
+       <TextField GridPane.rowIndex="0" fx:id="textField" />
+       <Label GridPane.rowIndex="1" fx:id="echoTextField"/>
+       <Button GridPane.rowIndex="2" fx:id="clearButton">Clear</Button>
+    </children>
+    <columnConstraints>
+       <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+       <RowConstraints />
+       <RowConstraints />
+   </rowConstraints>
+ </GridPane>
